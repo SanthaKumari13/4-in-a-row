@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f5f7fa;
+  color: #333;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(7, 60px);
+  grid-gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.cell.R { background-color: red; }
+.cell.Y { background-color: yellow; }
+
+#status {
+  margin: 15px;
+  font-weight: bold;
+}
+
+table {
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+}
