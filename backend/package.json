@@ -1,14 +1,20 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend server for 4 in a Row real-time multiplayer game",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "connect-four",
+    "game",
+    "backend",
+    "websocket",
+    "express"
+  ],
+  "author": "Santha Kumari",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
